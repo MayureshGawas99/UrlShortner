@@ -1,7 +1,7 @@
 const express = require("express");
-const app = express()
-const shortUrl = require("./routes/url")
-const homeRoutes = require("./routes/home")
+const app = express();
+const shortUrl = require("./routes/url");
+const homeRoutes = require("./routes/home");
 
 //middleawares are the functions that get called before any of the API calls
 app.use(express.json());// accepts application.json
